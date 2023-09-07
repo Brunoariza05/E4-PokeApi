@@ -1,0 +1,100 @@
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Borel', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Titillium Web', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to left, rgb(160, 210, 160), rgb(114, 179, 114));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+#form {
+    display: flex;
+    margin: 5px;
+}
+
+#input {
+    height: 30px;
+    width: 80px;
+    font-size: 30px;
+}
+
+button {
+    width: 33px;
+    height: 33px;
+}
+
+i {
+    color: black;
+    font-size: 20px;
+}
+
+#card {
+    text-align: start;
+    margin: 25px;
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#card-nombre {
+    text-align: center;
+    margin: 25px;
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+#card-imagen {
+    margin-left: 50%;
+    height: 200px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: black;
+    margin: 15px;
+    display: none;
+}
+
+
+#card-tipo {
+    margin: 5px;
+    margin-left: 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+#card-altura {
+    margin: 5px;
+    margin-left: 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+#card-peso {
+    margin: 5px;
+    margin-left: 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+#ingrese-valor {
+    font-size: 35px;
+    margin-top: 150px;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+
+.numero-invalido {
+    color: red;
+}
